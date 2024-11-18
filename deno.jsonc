@@ -1,0 +1,13 @@
+// deno.jsonc
+{
+  "compilerOptions": {
+    // Use a JSX runtime
+    "jsx": "react-jsx",
+    // Import runtime from a custom path
+    "jsxImportSource": "./customjsx"
+  },
+  "imports": {
+    // Add ".js" to the import path
+    "./customjsx/jsx-runtime": "./customjsx/jsx-runtime.js"
+  }
+}
